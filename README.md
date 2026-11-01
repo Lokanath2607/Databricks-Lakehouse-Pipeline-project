@@ -1,24 +1,14 @@
 🚀 End-to-End Databricks Lakehouse & ML Pipeline
 An enterprise-grade Big Data ETL and Machine Learning pipeline built on Databricks utilizing the Medallion Architecture (Bronze, Silver, Gold), PySpark, Delta Lake, and MLflow.
 
-🏗️ Architecture Blueprint
-Plaintext
-[Raw Data Ingestion] 
-       │
-       ▼
- 🥉 **Bronze Layer** (Raw Data Ingestion & Delta Lake Managed Tables)
-       │
-       ▼
- 🥈 **Silver Layer** (Data Cleaning, Transformation & Null Filtering)
-       │
-       ▼
- 🥇 **Gold Layer** (Business Aggregations & Analytical KPIs)
-       │
-       ├─────────────────────────────────┐
-       ▼                                 ▼
- 📊 **Databricks Dashboard**     🤖 **MLOps via MLflow**
-    (Visual Delay Analytics)     (Logistic Regression Model & Tracking)
+## 🏗️ Architecture Blueprint
 
+* 📥 **Data Source:** Raw Flight Operational Data
+* 🥉 **Bronze Layer:** Raw Data Ingestion & Delta Lake Managed Tables
+* 🥈 **Silver Layer:** Data Cleaning, Transformation & Null Filtering
+* 🥇 **Gold Layer:** Business Aggregations & Analytical KPIs
+* 📊 **Databricks Dashboard:** Visual Delay Analytics
+* 🤖 **MLOps via MLflow:** Logistic Regression Model & Experiment Tracking
     
 🛠️ Tech Stack & Core Tools
 Platform: Databricks Lakehouse Platform
